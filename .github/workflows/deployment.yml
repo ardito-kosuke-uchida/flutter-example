@@ -28,6 +28,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2.8.0
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        EXTERNAL_REPOSITORY: kuchidaxardito/kuchidaxardito.github.io
-        PUBLISH_BRANCH: master
+        PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./build/web
